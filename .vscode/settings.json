@@ -1,0 +1,10 @@
+{
+  "java.project.referencedLibraries": [
+    "C:/Users/NIRAJ KUMAR/AppData/Local/Android/Sdk/platforms/android-34/android.jar"
+  ],
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "java.autobuild.enabled": false,
+  "java.compile.nullAnalysis.mode": "disabled",
+  "csharp.suppressDotnetRestoreNotification": true,
+  "dotnet.defaultSolution": "smartpdf-pro-desktop/SmartPdfPro.csproj"
+}

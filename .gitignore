@@ -1,0 +1,26 @@
+# Keystores, Signing Secrets & Release Docs (NEVER commit to public repo)
+*.jks
+*.keystore
+**/KEYSTORE_BACKUP_README.md
+smartpdf-pro-mobile/release/
+smartpdf-pro-mobile/build-release-playstore.ps1
+smartpdf-pro-mobile/README_MOBILE.md
+smartpdf-pro-desktop/README_DESKTOP.md
+smartpdf-pro-desktop/SmartPdfLauncher.cs
+smartpdf-pro-desktop/SmartPdfSetup.cs
+README.md
+
+# Compiled Binaries & Build Artifacts
+*.exe
+*.apk
+*.aab
+*.idsig
+*.zip
+classes/
+dex/
+classes_rel/
+dex_rel/
+bin/
+obj/
+firebase-debug.log
+.vs/

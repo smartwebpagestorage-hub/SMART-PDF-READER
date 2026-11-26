@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="foldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Rectangle -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)"/>
+
+  <!-- Document Sheet -->
+  <g filter="url(#shadow)">
+    <!-- Main page body -->
+    <path d="M140 100 H300 L380 180 V400 C380 412 370 422 358 422 H140 C128 422 118 412 118 400 V122 C118 110 128 100 140 100 Z" fill="#ffffff"/>
+    
+    <!-- Top right page fold -->
+    <path d="M300 100 V180 H380 Z" fill="url(#foldGrad)"/>
+    
+    <!-- PDF Text Lines -->
+    <rect x="160" y="220" width="180" height="18" rx="9" fill="#2563eb" opacity="0.85"/>
+    <rect x="160" y="260" width="140" height="14" rx="7" fill="#94a3b8"/>
+    <rect x="160" y="290" width="160" height="14" rx="7" fill="#94a3b8"/>
+    <rect x="160" y="320" width="110" height="14" rx="7" fill="#94a3b8"/>
+
+    <!-- Search Magnifier Badge -->
+    <circle cx="340" cy="340" r="44" fill="#ef4444" filter="url(#shadow)"/>
+    <circle cx="334" cy="334" r="18" fill="none" stroke="#ffffff" stroke-width="6"/>
+    <line x1="347" y1="347" x2="362" y2="362" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
